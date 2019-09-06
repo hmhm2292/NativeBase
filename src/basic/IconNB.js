@@ -28,6 +28,12 @@ class IconNB extends Component {
     this.setIcon(props.type);
   }
 
+  componentDidUpdate(nextProps) {
+    if (nextProps.type && this.props.type !== nextProps.type) {
+      this.setIcon(nextProps.type);
+    }
+  }
+
   setIcon(iconType) {
     if (iconType === undefined && get(this, 'context.theme')) {
       // eslint-disable-next-line
@@ -76,13 +82,6 @@ class IconNB extends Component {
       break;
     default:
       this.Icon = Ionicons;
-    }
-  }
-
-  // eslint-disable-next-line camelcase
-  UNSAFE_componentWillUpdate(nextProps) {
-    if (nextProps.type && this.props.type !== nextProps.type) {
-      this.setIcon(nextProps.type);
     }
   }
 

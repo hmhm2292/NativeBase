@@ -26,13 +26,13 @@
       "node_modules/(?!react-native|@shoutem|react-clone-referenced-element|native-base-shoutem-theme)"
     ]
   },
-  "version": "2.13.7",
+  "version": "2.13.5",
   "license": "Apache-2.0",
   "private": false,
   "dependencies": {
     "blueimp-md5": "^2.5.0",
     "clamp": "^1.0.1",
-    "color": "~3.1.2",
+    "color": "~1.0.3",
     "create-react-class": "^15.6.3",
     "eslint-config-prettier": "^6.0.0",
     "fs-extra": "^2.0.0",
@@ -44,8 +44,8 @@
     "prop-types": "^15.5.10",
     "react-native-drawer": "2.5.1",
     "react-native-easy-grid": "0.2.2",
-    "react-native-keyboard-aware-scroll-view": "0.9.1",
-    "react-native-vector-icons": "^6.6.0",
+    "react-native-keyboard-aware-scroll-view": "0.8.0",
+    "react-native-vector-icons": "6.1.0",
     "react-timer-mixin": "^0.13.4",
     "react-tween-state": "^0.1.5",
     "tween-functions": "^1.0.1"
@@ -67,6 +67,7 @@
     "jest": "^24.8.0",
     "react": "16.4.1",
     "react-native": "^0.60.4",
+    "react-native-vector-icons": "6.1.0",
     "react-test-renderer": "16.4.1"
   },
   "gitHead": "5bbeacc403ba97622703699132c55d8359344004",
