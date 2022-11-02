@@ -232,6 +232,7 @@
   "files": [
     "src",
     "lib",
-    "cli.js"
+    "cli.js",
+    "Fonts"
   ]
 }
