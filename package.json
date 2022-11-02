@@ -1,35 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@hmhm2292 
-GeekyAnts
-/
-NativeBase
-Public
-Code
-Issues
-120
-Pull requests
-56
-Discussions
-Actions
-Projects
-2
-Security
-Insights
-NativeBase/package.json
-@rayan1810
-rayan1810 v3.4.20
-Latest commit dac4898 2 days ago
- History
- 62 contributors
-@surajahmed@theankurkedia@shivrajkumar@intergalacticspacehighway@Ajamuar@sankhadeeproy007@himanshu-satija@rayan1810@Viraj-10@SupriyaKalghatgi@dikarel@MD-REHMAN
-237 lines (237 sloc)  6.69 KB
-
 {
   "name": "native-base",
   "description": "Essential cross-platform UI components for React Native",
@@ -267,18 +235,3 @@ Latest commit dac4898 2 days ago
     "cli.js"
   ]
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-NativeBase/package.json at master · GeekyAnts/NativeBase
